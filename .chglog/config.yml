@@ -1,0 +1,33 @@
+style: github
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: https://github.com/PreemStudio/laravel-markdown
+options:
+  commits:
+    filters:
+      Type:
+        - deprecate
+        - feat
+        - fix
+        - perf
+        - refactor
+        - remove
+        - security
+  commit_groups:
+    title_maps:
+      deprecate: Deprecated
+      feat: Added
+      fix: Fixed
+      perf: Changed
+      refactor: Changed
+      remove: Removed
+      security: Security
+  header:
+    pattern: "^(\\w*)\\:\\s(.*)$"
+    pattern_maps:
+      - Type
+      - Subject
+  notes:
+    keywords:
+      - BREAKING CHANGE
