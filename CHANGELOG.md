@@ -8,23 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [333] - 2023-03-03
+## 1.0.0 - 2023-03-03
 - Initial Release
 
 
-## [232332] - 2023-03-03
-- Initial Release
-
-
-## [111] - 2023-03-03
-- Initial Release
-
-
-## 10.0 - 2023-03-03
-- Initial Release
-
-
-[Unreleased]: https://github.com/PreemStudio/laravel-markdown/compare/333...HEAD
-[333]: https://github.com/PreemStudio/laravel-markdown/compare/232332...333
-[232332]: https://github.com/PreemStudio/laravel-markdown/compare/111...232332
-[111]: https://github.com/PreemStudio/laravel-markdown/compare/10.0...111
+[Unreleased]: https://github.com/PreemStudio/laravel-markdown/compare/1.0.0...HEAD
