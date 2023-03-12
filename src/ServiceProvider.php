@@ -10,17 +10,17 @@ use League\CommonMark\Environment\Environment;
 use League\CommonMark\Environment\EnvironmentBuilderInterface;
 use League\CommonMark\Environment\EnvironmentInterface;
 use League\CommonMark\MarkdownConverter;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use PreemStudio\Jetpack\Package\AbstractServiceProvider;
+use PreemStudio\Jetpack\Package\Package;
 
-final class ServiceProvider extends PackageServiceProvider
+final class ServiceProvider extends AbstractServiceProvider
 {
     public function configurePackage(Package $package): void
     {
         $package->name('laravel-markdown')->hasConfigFile();
     }
 
-    public function packageRegistered()
+    public function packageRegistered(): void
     {
         $this->registerEnvironment();
 
