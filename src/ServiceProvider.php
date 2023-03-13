@@ -11,15 +11,9 @@ use League\CommonMark\Environment\EnvironmentBuilderInterface;
 use League\CommonMark\Environment\EnvironmentInterface;
 use League\CommonMark\MarkdownConverter;
 use PreemStudio\Jetpack\Package\AbstractServiceProvider;
-use PreemStudio\Jetpack\Package\Package;
 
 final class ServiceProvider extends AbstractServiceProvider
 {
-    public function configurePackage(Package $package): void
-    {
-        $package->name('laravel-markdown')->hasConfigFile();
-    }
-
     public function packageRegistered(): void
     {
         $this->registerEnvironment();
