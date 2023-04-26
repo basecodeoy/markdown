@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace BombenProdukt\Markdown;
 
+use BombenProdukt\PackagePowerPack\Package\AbstractServiceProvider;
 use Illuminate\Contracts\Container\Container;
 use League\CommonMark\ConverterInterface;
 use League\CommonMark\Environment\Environment;
 use League\CommonMark\Environment\EnvironmentBuilderInterface;
 use League\CommonMark\Environment\EnvironmentInterface;
 use League\CommonMark\MarkdownConverter;
-use BombenProdukt\PackagePowerPack\Package\AbstractServiceProvider;
 
 final class ServiceProvider extends AbstractServiceProvider
 {
