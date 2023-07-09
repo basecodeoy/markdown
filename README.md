@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-markdown/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-markdown" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-markdown">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-markdown" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-markdown">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-markdown" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-markdown">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-markdown" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Markdown
 
