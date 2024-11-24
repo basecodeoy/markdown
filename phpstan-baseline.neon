@@ -1,0 +1,16 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Container\\\\Container\\:\\:\\$config\\.$#"
+			count: 3
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Anonymous function should return League\\\\CommonMark\\\\MarkdownConverter but returns object\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'markdown\\.environment' on Illuminate\\\\Contracts\\\\Container\\\\Container\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
