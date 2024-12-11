@@ -1,0 +1,31 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Container\\\\Container\\:\\:\\$config\\.$#"
+			count: 3
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Anonymous function should return League\\\\CommonMark\\\\MarkdownConverter but returns object\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'markdown\\.environment' on Illuminate\\\\Contracts\\\\Container\\\\Container\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Markdown\\\\ServiceProvider\\:\\:provides\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
